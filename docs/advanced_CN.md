@@ -23,7 +23,7 @@ tail -F ~/.codex/log/codex-tui.log
 
 ## 模型上下文协议 (MCP)
 
-Codex CLI 和 IDE 扩展是一个 MCP 客户端,这意味着它可以配置为连接到 MCP 服务器。有关更多信息,请参阅 [`config 文档`](./config.md#connecting-to-mcp-servers)。
+Codex CLI 和 IDE 扩展是一个 MCP 客户端,这意味着它可以配置为连接到 MCP 服务器。有关更多信息,请参阅 [`config 文档`](./config_CN.md#connecting-to-mcp-servers)。
 
 ## 将 Codex 用作 MCP 服务器
 
@@ -46,7 +46,7 @@ npx @modelcontextprotocol/inspector codex mcp-server
 | **`prompt`** (必需)     | string  | 启动 Codex 对话的初始用户提示词。                                                                         |
 | `approval-policy`       | string  | 模型生成的 shell 命令的批准策略: `untrusted`、`on-failure`、`never`。                                    |
 | `base-instructions`     | string  | 用于替代默认指令的指令集。                                                                                |
-| `config`                | object  | 将覆盖 `$CODEX_HOME/config.toml` 中设置的单个[配置设置](https://github.com/openai/codex/blob/main/docs/config.md#config)。 |
+| `config`                | object  | 将覆盖 `$CODEX_HOME/config.toml` 中设置的单个[配置设置](./config_CN.md#config)。 |
 | `cwd`                   | string  | 会话的工作目录。如果是相对路径,则相对于服务器进程的当前目录进行解析。                                    |
 | `include-plan-tool`     | boolean | 是否在对话中包含计划工具。                                                                                |
 | `model`                 | string  | 模型名称的可选覆盖 (例如 `o3`、`o4-mini`)。                                                               |

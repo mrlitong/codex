@@ -64,45 +64,45 @@ codex
 
 运行 `codex` 并选择 **Sign in with ChatGPT**（使用 ChatGPT 登录）。我们建议登录您的 ChatGPT 账户，以将 Codex 作为 Plus、Pro、Team、Edu 或 Enterprise 套餐的一部分使用。[详细了解您的 ChatGPT 套餐包含的内容](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)。
 
-您也可以使用 API 密钥来使用 Codex，但这需要[额外的设置](./docs/authentication.md#usage-based-billing-alternative-use-an-openai-api-key)。如果您之前使用 API 密钥进行按使用量计费，请参阅[迁移步骤](./docs/authentication.md#migrating-from-usage-based-billing-api-key)。如果您在登录时遇到问题，请在[此 issue](https://github.com/openai/codex/issues/1243) 下留言。
+您也可以使用 API 密钥来使用 Codex，但这需要[额外的设置](./docs/authentication_CN.md#usage-based-billing-alternative-use-an-openai-api-key)。如果您之前使用 API 密钥进行按使用量计费,请参阅[迁移步骤](./docs/authentication_CN.md#migrating-from-usage-based-billing-api-key)。如果您在登录时遇到问题,请在[此 issue](https://github.com/openai/codex/issues/1243) 下留言。
 
 ### 模型上下文协议（MCP）
 
-Codex 可以访问 MCP 服务器。要配置它们，请参考[配置文档](./docs/config.md#mcp_servers)。
+Codex 可以访问 MCP 服务器。要配置它们,请参考[配置文档](./docs/config_CN.md#mcp_servers)。
 
 ### 配置
 
-Codex CLI 支持丰富的配置选项，配置文件存储在 `~/.codex/config.toml`。有关完整的配置选项，请参阅[配置文档](./docs/config.md)。
+Codex CLI 支持丰富的配置选项，配置文件存储在 `~/.codex/config.toml`。有关完整的配置选项,请参阅[配置文档](./docs/config_CN.md)。
 
 ---
 
 ### 文档与常见问题
 
-- [**快速开始**](./docs/getting-started.md)
-  - [CLI 使用方法](./docs/getting-started.md#cli-usage)
-  - [使用提示词作为输入运行](./docs/getting-started.md#running-with-a-prompt-as-input)
-  - [示例提示词](./docs/getting-started.md#example-prompts)
-  - [通过 AGENTS.md 使用记忆功能](./docs/getting-started.md#memory-with-agentsmd)
-  - [配置](./docs/config.md)
-- [**沙箱与权限审批**](./docs/sandbox.md)
-- [**身份验证**](./docs/authentication.md)
-  - [认证方法](./docs/authentication.md#forcing-a-specific-auth-method-advanced)
-  - [在"无头"机器上登录](./docs/authentication.md#connecting-on-a-headless-machine)
+- [**快速开始**](./docs/getting-started_CN.md)
+  - [CLI 使用方法](./docs/getting-started_CN.md#cli-usage)
+  - [使用提示词作为输入运行](./docs/getting-started_CN.md#running-with-a-prompt-as-input)
+  - [示例提示词](./docs/getting-started_CN.md#example-prompts)
+  - [通过 AGENTS.md 使用记忆功能](./docs/getting-started_CN.md#memory-with-agentsmd)
+  - [配置](./docs/config_CN.md)
+- [**沙箱与权限审批**](./docs/sandbox_CN.md)
+- [**身份验证**](./docs/authentication_CN.md)
+  - [认证方法](./docs/authentication_CN.md#forcing-a-specific-auth-method-advanced)
+  - [在"无头"机器上登录](./docs/authentication_CN.md#connecting-on-a-headless-machine)
 - **自动化 Codex**
   - [GitHub Action](https://github.com/openai/codex-action)
-  - [TypeScript SDK](./sdk/typescript/README.md)
-  - [非交互模式（`codex exec`）](./docs/exec.md)
-- [**高级主题**](./docs/advanced.md)
-  - [追踪/详细日志](./docs/advanced.md#tracing--verbose-logging)
-  - [模型上下文协议（MCP）](./docs/advanced.md#model-context-protocol-mcp)
-- [**零数据留存（ZDR）**](./docs/zdr.md)
-- [**贡献指南**](./docs/contributing.md)
-- [**安装与构建**](./docs/install.md)
-  - [系统要求](./docs/install.md#system-requirements)
-  - [DotSlash](./docs/install.md#dotslash)
-  - [从源码构建](./docs/install.md#build-from-source)
-- [**常见问题（FAQ）**](./docs/faq.md)
-- [**开源基金**](./docs/open-source-fund.md)
+  - [TypeScript SDK](./sdk/typescript/README_CN.md)
+  - [非交互模式（`codex exec`）](./docs/exec_CN.md)
+- [**高级主题**](./docs/advanced_CN.md)
+  - [追踪/详细日志](./docs/advanced_CN.md#tracing--verbose-logging)
+  - [模型上下文协议（MCP）](./docs/advanced_CN.md#model-context-protocol-mcp)
+- [**零数据留存（ZDR）**](./docs/zdr_CN.md)
+- [**贡献指南**](./docs/contributing_CN.md)
+- [**安装与构建**](./docs/install_CN.md)
+  - [系统要求](./docs/install_CN.md#system-requirements)
+  - [DotSlash](./docs/install_CN.md#dotslash)
+  - [从源码构建](./docs/install_CN.md#build-from-source)
+- [**常见问题（FAQ）**](./docs/faq_CN.md)
+- [**开源基金**](./docs/open-source-fund_CN.md)
 
 ---
 
